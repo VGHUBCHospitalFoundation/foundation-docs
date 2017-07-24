@@ -117,12 +117,17 @@ pre {
   display: none;
 }
 
+.docs-code-regular {
+  display: none;
+}
+
 .is-inky-enabled {
-  .docs-code-inky {
+
+  .docs-code-regular {
     display: block;
   }
 
-  .docs-code-html {
+  .docs-code-bordered {
     display: none;
   }
 }
